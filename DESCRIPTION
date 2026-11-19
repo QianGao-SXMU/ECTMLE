@@ -1,0 +1,20 @@
+Package: ECTMLE
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Qian Gao, Tong Wang
+Maintainer: Qian Gao <gaoqian@sxmu.edu.cn>
+Description: Implements E-value based collaborative target maximum likelihood estimation (EC-TMLE) for estimating the average treatment effect of a binary treatment with high-dimensional covariates of mixed types.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: false
+Imports: 
+    broom,
+    ctmle,
+    dplyr,
+    EValue,
+    glmnet,
+    grf,
+    SuperLearner,
+    tmle
+Config/roxygen2/version: 8.1.1
